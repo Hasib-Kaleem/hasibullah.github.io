@@ -1,0 +1,66 @@
+body{
+    background-color: beige;
+}
+/* NOTE: body works the same as * => works for all tags  */
+h4{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color: olivedrab;
+    background-color: antiquewhite;
+}
+
+.common{
+    color: blueviolet;
+    text-align: right;
+}
+
+/* classes can be used to style multiple and different tags at the same time. 
+   For class attribute to work, we start with a dot (.) and the value that we
+   assigned to that class => .common
+   If we want, we can make it more specific (more detailed) 
+
+   A tag can use multiple classes as well. 
+   So which class style will be implemented? 
+   The one which comes last in the CSS style sheet. 
+*/
+
+h3{
+    color: sienna;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3{
+    color: crimson !important; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+#abdc{
+    color: firebrick;
+    background-color: burlywood;
+}
+
+.more{
+    color: orchid;
+    background-color: aquamarine;
+}
+
+nav ul li {
+    font-weight: 900;
+    color: rebeccapurple;
+}
+
+/* We can style the group of tags together at the same time
+    1. use tag names
+    2. use class value (.navbar) and the other tags => .navbar ul li 
+    3. tag.class value and the other tags => nav.navbar ul li 
+*/
+
+
+
+

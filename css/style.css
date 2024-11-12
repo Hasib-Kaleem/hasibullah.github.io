@@ -1,0 +1,101 @@
+/* General style sheet for all anchor tags */
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    /* font-style: italic; */
+}
+
+/* style for a visited link */
+a:visited{
+    color: green;
+}
+
+/* style for a unvisited link */
+a:link{
+    color: brown;
+}
+
+/* style when we hover over a link */
+a:hover{
+    color: orange;
+    background-color: bisque;
+}
+
+/* style when a link is active*/
+a:active{
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+/* Style tags for lists */
+
+
+ul{
+    list-style: lower-alpha;
+    list-style-position: inside;
+    line-height: 2rem;
+    /* list-style-image: url(../img/Dubai-Desert.jpg); */
+}
+.icons{
+    list-style-type: '🧁';
+    font-size: 20px;
+    font-weight: bold; 
+}
+/* https://emojipedia.org/ */
+
+
+div{
+    background-color: aqua;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+/* display property and its effects on block and inline elements */
+
+/* Notes:
+1. padding does NOT work oon block elements
+2. padding is used to create space inside the element
+3. margin is useed to create space between the elements
+*/
+div.display{
+    display: inline;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px; */
+
+    /* padding: 20px;   it applies to all sides */
+
+    /* padding: 20px 10px; 20px applies to top and bottom; 10px applies to left and right */
+    /*  padding: 20px 10px 30px 15px;  => all pexel values are applied in clockwise */
+    padding: 20px 10px 30px 15px;  
+
+    border-top: 4px  dotted red;
+    border-bottom: 3px dashed green;
+    border-left: 4px ridge orangered;
+    border-right: 5px chocolate double;
+
+    border-radius: 40px;
+
+    margin-right: 10%;
+    margin-left: auto;
+
+
+}
+
+/* Background Image */
+
+body{
+    background-image: url(../img/techpro.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 200px;
+    background-position: top left;
+
+}
+
+
